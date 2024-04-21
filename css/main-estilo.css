@@ -57,3 +57,21 @@
     --White-text: hsl(0, 0%, 100%);
 
 }
+body {
+    margin-top: 3rem;
+}
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 800px;
+    border: 2px solid hsl(198, 20%, 13%);
+}
+.box-app {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    border: 2px solid hsl(25, 98%, 40%);
+}
