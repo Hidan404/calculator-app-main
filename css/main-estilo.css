@@ -73,5 +73,9 @@ body {
     margin: auto;
     width: 50%;
     height: auto;
-    border: 2px solid hsl(25, 98%, 40%);
+    border: 1px solid hsl(25, 98%, 40%);
+}
+.app-header .row {
+    display: flex;
+    justify-content: space-between;
 }
