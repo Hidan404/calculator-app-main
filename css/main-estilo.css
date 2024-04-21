@@ -134,9 +134,11 @@ body {
 }
 .row .button-footer {
     display: flex;
+    width: 90%;
     align-items: center;
     justify-content: center;
     margin: auto;
+    background-color: var(--red-bg);
 }
 .row .center-box {
     margin-top: 10px;
