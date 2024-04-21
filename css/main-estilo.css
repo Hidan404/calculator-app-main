@@ -68,14 +68,12 @@ body {
     margin: auto;
     width: 80%;
     height: 800px;
-    border: 2px solid hsl(198, 20%, 13%);
     background-color: var(--Very-dark-main-bg);
 }
 .box-app {
     margin: auto;
     width: 50%;
     height: auto;
-    border: 1px solid hsl(25, 98%, 40%);
 }
 .app-header .row {
     display: flex;
@@ -122,6 +120,25 @@ body {
 /* keys */
 .keys {
     background-color: var(--Very-dark-toggle-keypad);
+    border-radius: 18px;
+}
+.row button {
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
     border-radius: 12px;
-    
+    background-color: var(--Light-grayish-orange-key-bg);
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--Very-dark-grayish-blue);
+}
+.row .button-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.row .center-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
