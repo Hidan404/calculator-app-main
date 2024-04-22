@@ -57,28 +57,22 @@
     --White-text: hsl(0, 0%, 100%);
 
 }
-body {
-    margin-top: 3rem;
+
+.container-fluid{
+    height: 100vh;
+    background-color: var(--Very-dark-main-bg);
     color: aliceblue;
 }
-.box-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 80%;
-    height: 800px;
-    background-color: var(--Very-dark-main-bg);
-}
+
 .box-app {
-    margin: auto;
-    width: 50%;
+    margin: auto ;
+    max-width: 40%;
     height: auto;
 }
 .app-header .row {
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+    
 }
 .app-header p {
     font-size: 1.4rem;
@@ -126,6 +120,7 @@ body {
     width: 70%;
     padding: 5px;
     margin: 10px;
+
     border-radius: 12px;
     background-color: var(--Light-grayish-orange-key-bg);
     font-weight: 800;
@@ -138,9 +133,18 @@ body {
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-color: var(--red-bg);
+    
 }
 .row .center-box {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+#estilo-button {
+    background-color: var(--red-bg);
+    color: aliceblue;
+}
+#estilo-Personalizado {
+    background-color: var(--dark-blue-key-bg);
+    color: aliceblue;
+}
+
