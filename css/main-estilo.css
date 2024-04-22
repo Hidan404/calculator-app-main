@@ -57,13 +57,18 @@
     --White-text: hsl(0, 0%, 100%);
 
 }
-
-.container-fluid{
-    height: 100vh;
+body {
     background-color: var(--Very-dark-main-bg);
     color: aliceblue;
 }
-
+.container-fluid{
+    height: 100vh;
+    
+}
+.box-main {
+    margin-top: 3rem;
+    margin-bottom: 10px;
+}
 .box-app {
     margin: auto ;
     max-width: 40%;
@@ -87,8 +92,9 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    
 }
-.choose input {
+.choose input[] {
     border-radius: 25%;
 }
 .row .choose {
@@ -148,3 +154,8 @@
     color: aliceblue;
 }
 
+@media(max-width: 420px){
+    .box-app {
+        max-width: 90%;
+    }
+}
