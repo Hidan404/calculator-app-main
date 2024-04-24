@@ -19,7 +19,7 @@ function mudarTema(tema) {
         root.style.setProperty('--Very-dark-toggle-keypad', 'hsl(268, 71%, 12%)');
         root.style.setProperty('--Light-grayish-orange-key-bg', 'hsl(45, 7%, 89%)');
         root.style.setProperty('--red-bg', 'hsl(6, 63%, 50%)');
-        
+        body.style.backgroundColor = "hsl(268, 75%, 9%)"
         break;
       
       default:
