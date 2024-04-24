@@ -33,11 +33,11 @@
                 <li>3</li>
               </ul>
               <div class="choose">
-                <input id="option1" name="ponto" type="radio">
+                <input id="option1" name="ponto" type="radio" value="1" onclick="mudarTema(this.value)">
                 <label for="option1"></label>
-                <input id="option2" name="ponto" type="radio">
+                <input id="option2" name="ponto" type="radio" value="2"  onclick="mudarTema(this.value)">
                 <label for="option2"></label>
-                <input id="option3" name="ponto" type="radio">
+                <input id="option3" name="ponto" type="radio" value="3"  onclick="mudarTema(this.value)">
                 <label for="option3"></label>
               </div>
             </div>
@@ -122,5 +122,6 @@
   </div>
 
   <script src="js/app.js"></script>
+  <script src="js/switchColor.js"></script>
 </body>
 </html>
